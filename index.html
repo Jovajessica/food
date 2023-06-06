@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Skolmaten</title>
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="style2.css">
+	<link rel="icon" href="food.ico">
+</head>
+<body id="bdy">
+	<div class="navbar">
+		<div class="logo">
+			<h1>Skolmaten</h1>
+		</div>
+		<div class="menu">
+			<ul>
+				<li><a href="index.html">Hem</a></li>
+				<li><a href="tab1.html">Dagens Matsedel</a></li>
+				<li><a href="kontakt.html">Kontakta oss</a></li>
+			</ul>
+		</div>
+		<div class="signup">
+			<a href="sign_up.html">Ditt Schema</a>
+		</div>
+	</div>
+	<div class="body">
+		<div class="heading">
+			<h1>Skolmaten</h1>
+			<br>
+			<p>Bra, näringsrik och god skolmat är en av framgångsfaktorerna för att elever ska...</p>
+			<br>
+			<br>
+			<a href="tab2.html">Läs mer</a>
+		</div>
+		<div class="röst">
+			<img src="img13.jpg" width="270px" height="190px">
+			<br>
+			<br>
+			<a href="https://docs.google.com/forms/d/1SpUYdgR_5AxEHhkk58-Owe53boEJHIBh_uwK9CzQcT0/prefill">Gör din röst hörd!</a>
+		</div>
+		<div id="div1">
+			<img src="https://media3.giphy.com/media/xUPGGDNsLvqsBOhuU0/giphy.gif?cid=ecf05e474i6jolg8bb8v9ajtc1vqymiqm5nab8vhzcuucqez&rid=giphy.gif&ct=g" class="gif">
+		</div>
+	</div>
+	<script>
+		
+		document.addEventListener("DOMContentLoaded", function(){ // Väntar tills att din hemsida har laddat klart :) //
+			let division = document.getElementById("div1");
+		function iN(){
+			division.classList.add("animation");
+			setTimeout(function(){
+				division.classList.remove("animation");
+			}, 2000)
+		}
+			division.addEventListener("mouseover", iN)
+		})
+	</script>
+</body>
+</html>
